@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.equalTo;
                     .post("/post")
                     .then()
                     .statusCode(200)
-                    .body("data", equalTo(null));
+                    .body("data", equalTo("testing text"));
         }
     }
 
